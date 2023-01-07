@@ -1,5 +1,8 @@
 package pojos;
 
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class User {
 
     /*
@@ -21,7 +24,7 @@ public class User {
     private String firstName;
     private String lastName;
     private String email;
-    private Boolean activated;
+    private boolean activated;
     private String langKey;
     private String imageUrl;
     private String resetDate;
