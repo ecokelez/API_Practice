@@ -2,14 +2,12 @@ package day02;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.hamcrest.Matcher;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class GetRequest01 {
+public class GetRequest04 {
 
        /*
       http://dummy.restapiexample.com/api/v1/employees  url'ine

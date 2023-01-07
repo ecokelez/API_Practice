@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class GetRequest02 {
+public class GetRequest05 {
 
 
     @Test

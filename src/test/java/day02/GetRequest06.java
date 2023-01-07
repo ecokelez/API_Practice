@@ -3,14 +3,13 @@ package day02;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
-import org.junit.Assert;
 import org.junit.Test;
 import utilities.Authentication;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 
-public class GetRequest03 extends Authentication {
+public class GetRequest06 extends Authentication {
     @Test
     public void test01() {
         String url = "https://www.gmibank.com/api/tp-customers/114351";
